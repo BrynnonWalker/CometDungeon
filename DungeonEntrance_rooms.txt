@@ -1,0 +1,19 @@
+NEW
+ID|StartRoom
+DESC|You have entered a classroom hidden in the basement of ECSS.
+ITEM|entrance note
+PATH|path1|the true entrance to the CometDungeon!|north
+TYPE|start
+END
+
+NEW
+ID|EndRoom
+DESC| You have entered the entrance..wait, no..um..
+ITEM|shiny sword
+ITEM|shiny armor
+ITEM|bottle of powerade
+ITEM|stale black bread
+ENTITY|Cardboard Box
+PATH|path2|a room|south
+TYPE|end
+END

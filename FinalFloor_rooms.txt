@@ -1,0 +1,52 @@
+NEW
+ID|StartRoom
+DESC|The final floor of Comet Dungeon. What dangers await on this floor, no one knows
+ITEM|leftover Panda Express
+PATH|path1| a room |north
+TYPE|start
+END
+
+NEW
+ID|EndRoom
+DESC|The boss room of the final floor of the CometDungeon! Good luck!
+ENTITY|Professor Goodrum
+PATH|path1|a room|north
+PATH|path2|a room|east
+TYPE|end
+END
+
+NEW
+ID|GenericBattleRoomEW
+DESC|Something evil lurks in this room...
+ENTITY|Demon
+ENTITY|Demon
+PATH|path1| a room|east
+PATH|path2| a room|west
+PATH|path3| a room|south
+TYPE|multi2
+END
+
+NEW
+ID|GenericBattleRoomEW2
+DESC|This room is dark and poorly lit
+ENTITY|Vampire
+ENTITY|Angry Bat
+ENTITY|Angry Bat
+PATH|path1| a room|east
+PATH|path2| a room|west
+PATH|path3| a room|south
+TYPE|multi2
+END
+
+NEW
+ID|TreasureRoom
+DESC|A storage room. Quite a find!
+ENTITY|Cardboard Box
+ENTITY|Cardboard Box
+ENTITY|Cardboard Box
+ITEM vanilla cake
+ITEM|vanilla cake
+ITEM|vanilla cake
+PATH|path1| a room|east
+TYPE|single
+END

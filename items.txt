@@ -1,0 +1,135 @@
+NEW
+FULLNAME|entrance note
+NAME|note
+DESC|Upon the note is written, "Can you complete the challenge? Defeat the CometDungeon!"
+ROOM_DESC|Sitting upon a stone slab in the room, is a 'note'.
+END
+
+NEW
+FULLNAME|dirty rags
+NAME|rags
+DESC|Dirty. Filthy. What else do you need to know? Uses? Maybe you can scare enemies away with its smell.
+ROOM_DESC|Littered upon the floor are 'dirty rags'.
+END
+
+NEW
+FULLNAME|pointy stick
+NAME|stick
+DESC|A pointy stick. Better than nothing, I suppose.
+ROOM_DESC|A 'pointy stick' lays upon the ground.
+WEAPON|7
+END
+
+NEW
+FULLNAME|big stick
+NAME|stick
+DESC|A big stick. Perfect for whacking pesky critters.
+ROOM_DESC|A 'big stick' lays upon the ground.
+WEAPON|12
+END
+
+NEW
+FULLNAME|wooden sword
+NAME|sword
+DESC|A dull, wooden training sword. Perfect for practice, but not much better than a big stick in your case.
+ROOM_DESC|A 'wooden sword' is propped up against a wall to your left.
+WEAPON|25
+END
+
+NEW
+FULLNAME|shiny sword
+NAME|sword
+DESC|A very shiny sword. Perfect for new adventurers.
+ROOM_DESC|Amongst the rubble in a corner, a 'sword' shines.
+WEAPON|25
+END
+
+NEW
+FULLNAME|bloody sword
+NAME|sword
+DESC|A bloody sword, that gives off a dense aura of death and despair.
+ROOM_DESC|Sticking out of the giant's back is a 'bloody sword'.
+WEAPON|50
+END
+
+NEW
+FULLNAME|Excalibur
+NAME|sword
+DESC|The sword of legends, no one knows why it would be in UTD of all places.
+ROOM_DESC|A powerful sword lays inside of a vampire's coffin
+WEAPON|70
+END
+
+NEW
+FULLNAME|Comet Blade
+NAME|sword
+DESC|The most powerful sword in existence, powered by UTD's school spirit to vanquish Any foe.
+ROOM_DESC|There's a glowing sword sitting in the center of the room, illuminating everything around it.
+WEAPON|90
+END
+
+
+NEW
+FULLNAME|shiny armor
+NAME|armor
+DESC|A very shiny set of armor. Perfect for new adventurers.
+ROOM_DESC|In a neat pile by the entrance lies a set of 'shiny armor'.
+ARMOR|10
+END
+
+NEW
+FULLNAME|bottle of powerade
+NAME|bottle
+DESC|Nothing like a bit of Powerade to keep you going!
+ROOM_DESC|Propped up against a wall is a 'bottle of powerade'.
+DRINK|25
+END
+
+NEW
+FULLNAME|can of slurm
+NAME|can
+DESC|Mmm...Slurm...
+ROOM_DESC|A 'can of slurm' sits upright in the middle of the room.
+DRINK|35
+END
+
+NEW
+FULLNAME|stale black bread
+NAME|bread
+DESC|I bet you could use this as a weapon...
+ROOM_DESC|A piece of 'stale black bread' gathers dust in the corner.
+FOOD|15
+END
+
+NEW
+FULLNAME|questionable goo
+NAME|goo
+DESC|I dare you to eat it.
+ROOM_DESC|Some 'questionable goo' is splattered on the wall.
+FOOD|100
+END
+
+NEW
+FULLNAME|vanilla cake
+NAME|cake
+DESC|Ugh..I like chocolate cake more.
+ROOM_DESC|A slice of 'vanilla cake' sits upon a clean stone slab in the middle of the room.
+FOOD|150
+END
+
+NEW
+FULLNAME|leftover Panda Express
+NAME|panda
+DESC|It's kinda gross to eat someone's left overs... but clearly you have low standards
+ROOM_DESC|Something smells edible...unfortunately it's near the trash can
+FOOD|170
+END
+
+
+NEW
+FULLNAME|ramen noodles
+NAME|ramen
+DESC|With the cost of tutition this semester, you better looking forward to eating this for a long time
+ROOM_DESC|There's a package of noodles stuffed in a hole in the wall
+FOOD|80
+END

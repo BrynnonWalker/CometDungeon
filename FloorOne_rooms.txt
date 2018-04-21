@@ -1,0 +1,107 @@
+NEW
+ID|StartRoom
+DESC|The first room of the CometDungeon. There are a lot of cobwebs about the room.
+ITEM|bottle of powerade
+PATH|path1| a room |north
+PATH|path2| a room |west
+PATH|path3| a room|east
+PATH|path4| a room|south
+TYPE|start
+END
+
+NEW
+ID|EndRoom
+DESC|The boss room of the first floor of the CometDungeon! Good luck!
+ENTITY|Giant
+ENTITY|Two-Headed Giant
+ITEM|bottle of powerade
+ITEM|bloody sword
+ITEM|questionable goo
+PATH|path1| a room|east
+PATH|path2| a room |west
+PATH|path3| a room|south
+TYPE|end
+END
+
+NEW
+ID|GenericRoomEW
+DESC|An empty room.
+PATH|path1| a room|east
+PATH|path2| a room|west
+TYPE|multi5
+END
+
+NEW
+ID|GenericBattleRoomEW
+DESC|A simple room.
+ENTITY|Goblin
+ENTITY|Goblin
+PATH|path1| a room|east
+PATH|path2| a room|west
+TYPE|multi2
+END
+
+NEW
+ID|GenericBattleRoomEW2
+DESC|A simple room.
+ENTITY|Big Goblin
+ITEM|big stick
+ITEM|can of slurm
+PATH|path1| a room|east
+PATH|path2| a room|west
+TYPE|multi
+
+NEW
+ID|GenericRoomNS
+DESC|An empty room.
+PATH|path1| a room|north
+PATH|path2| a room|south
+TYPE|multi5
+END
+
+NEW
+ID|GenericBattleRoomNS
+DESC|A simple room.
+ENTITY|Big Goblin
+ENTITY|Giant Rat
+ENTITY|Giant Rat
+ITEM|stale black bread
+PATH|path1| a room|north
+PATH|path2| a room|south
+TYPE|multi3
+END
+
+NEW
+ID|GenericBattleRoomNS2
+DESC|A simple room.
+ENTITY|Mutant Rat
+ENTITY|Giant Rat
+ITEM|stale black bread
+ITEM|stale black bread
+ITEM|stale black bread
+PATH|path1| a room|north
+PATH|path2| a room|south
+TYPE|multi2
+END
+
+NEW
+ID|TreasureRoom
+DESC|A storage room. Quite a find!
+ENTITY|Cardboard Box
+ENTITY|Cardboard Box
+ITEM|bottle of powerade
+ITEM|bottle of powerade
+ITEM|vanilla cake
+PATH|path1| a room|north
+TYPE|single
+END
+
+NEW
+ID|TreasureRoom2
+DESC|A storage room. Quite a find!
+ITEM|bottle of powerade
+ITEM|bottle of powerade
+ITEM|vanilla cake
+PATH|path1| a room|east
+TYPE|single
+END

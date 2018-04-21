@@ -1,0 +1,54 @@
+
+NEW
+ID|StartRoom
+DESC|You've made it to the second floor of Comet Dungeon alive! That was unexpected.
+ITEM|ramen noodles
+PATH|path1| a room |north
+PATH|path2| a room |west
+TYPE|start
+END
+
+NEW
+ID|EndRoom
+DESC|What?! The TA for CS3376 wants to fight you! There's no backing down now
+ENTITY|TA Linghuan Hu
+ITEM|vanilla cake
+ITEM|Comet Blade
+ITEM|questionable goo
+PATH|path1| a room|east
+PATH|path2| a room |north
+PATH|path3| a room|south
+TYPE|end
+END
+
+NEW
+ID|GenericRoomEW
+DESC|An empty room... Not much to see here
+PATH|path1| a room|north
+PATH|path2| a room|south
+TYPE|multi2
+END
+
+NEW
+ID|GenericBattleRoomEW2
+DESC|There seems to be a dark prescence in this room
+ENTITY|Vampire
+ENTITY|Angry Bat
+ITEM|Excalibur
+ITEM|leftover Panda Express
+PATH|path1| a room|east
+PATH|path2| a room|south
+TYPE|multi2
+
+
+NEW
+ID|TreasureRoom
+DESC|A storage room. Quite a find!
+ENTITY|Cardboard Box
+ENTITY|Cardboard Box
+ITEM|ramen noodles
+ITEM|leftover Panda Express
+ITEM|vanilla cake
+PATH|path1| a room|west
+TYPE|single
+END
